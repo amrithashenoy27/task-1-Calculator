@@ -8,7 +8,8 @@ Supports four basic operations: Add, Subtract, Multiply, Divide
 Handles division by zero gracefully
 Infinite loop until user chooses to exit
 
-Demo
+Demo -
+
 Welcome to the Calculator
 Select operation:
 1. Add
@@ -21,7 +22,7 @@ Enter first number: 8
 Enter second number: 2
 Result: 10.0
 
-How to Use
+How to Use -
 
 1. When the program starts, you'll see a menu with 5 options.
 2. Choose an operation by entering a number from 1 to 5.
@@ -30,7 +31,7 @@ How to Use
 5. The program will loop until you choose "Exit".
 
 
-Sample Code
+Sample Code -
 
 def add(a, b):
 return a + b
@@ -48,7 +49,7 @@ return a / b
 
 def calculator():
 while True:
-print("\n--- CLI Calculator ---")
+print("Welcome to the Calculator")
 print("1. Add")
 print("2. Subtract")
 print("3. Multiply")
@@ -76,15 +77,10 @@ choice = input("Enter your choice (1-5): ")
         print("Invalid input")
 
 
-
-
-
-Technologies Used
+Technologies Used -
 
 Python 3.13.5
-
 VS Code 
-
-Command Line Interface (CLI)
+Command Line Interface
 
 
